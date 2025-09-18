@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book3 Task2</title>
+    <style>
+
+     @keyframes spin {
+        from {
+            transform: rotate(0deg)
+        }
+        to {
+            transform: rotate(360deg);
+        }
+     }
+
+     @keyframes load {
+      from { width: 0; }
+      to { width: 85%; }
+    }
+    
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-20px);
+        }
+        60% {
+            transform: translateY(-10px);
+        }
+    }
+    
+
+    .gen-container {
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px; 
+    background: linear-gradient(to right, #6f4e37, #fdf6ec);
+    padding-bottom: 10rem;
+    }
+
+    .container {
+    border-radius: 10px;
+    background-color: #fdf6ec;
+    height: 10rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+     padding-top: 2rem;
+    }
+
+    .spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #dcd4d4;
+    border-top: 4px solid #031c06;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+   
+
+    }
+    .animated-button {
+        background-color: #e73137;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        /* position:fixed; */
+        overflow: hidden;
+        animation: bounce 2s infinite;
+    }
+
+    .animated-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(111, 66, 193, 0.4);
+    }
+    
+    .animated-button:active {
+        transform: translateY(0);
+    }
+    
+    .main {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .loader {
+        width: 80%;
+        height: 1rem;
+        background-color: rgb(180, 204, 231);
+        border-radius: 3px;
+        /* padding-bottom: 5px; */
+    }
+    .child {
+        width: 40%;
+        height: 100%;
+        background-color: rgb(44, 136, 242);
+        animation: load 4s ease infinite;
+    }
+
+    </style>
+
+</head>
+<body>
+   <div class="gen-container">
+        <h1>HIGHLY FAVOURED</h1>
+        <h2>INTERACTIVE DASHBORD CARD</h2>
+    <div class="container"> 
+        <div class="main">
+            <div class="spinner"></div>
+            <h4><b>Loading</b></h4>
+        </div>
+        <div class="loader">
+            <div class="child"></div>
+        </div>
+        <div> 
+            <button class="animated-button">BUTTON</button>
+        </div> 
+    </div>
+   </div> 
+</body>
+</html>
