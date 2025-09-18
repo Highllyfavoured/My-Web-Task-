@@ -11,6 +11,10 @@
 
 ![CSS Exercise Two](https://github.com/user-attachments/assets/78c96361-67af-42e3-b647-3d38a46bcc71)
 
+# CODEBOOK 1 TASK THREE PROJECT SCREENSHOTS
+
+![CSS Exercise Three](https://github.com/user-attachments/assets/17b807c2-bd00-4119-9bf5-167f8969cacd)
+
 # CODEBOOK 2 TASK ONE PROJECT SCREENSHOTS
 
 ![Hero and Header Sections](https://github.com/user-attachments/assets/0de70d1e-a82b-4851-b784-d24875e19ab7)
