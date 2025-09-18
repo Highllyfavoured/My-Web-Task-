@@ -153,112 +153,105 @@
 }
 
 
-/* exercise 2 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .exercise-2 {
-    background: linear-gradient(135deg, #FF00A8, #A23BEC, #3D5AFE);
+  background: linear-gradient(135deg, #FF00A8, #A23BEC, #3D5AFE);
 }
 
 .header {
-    background: linear-gradient(90deg, #FF00A8, #A23BEC);
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    display: block;
-    padding: 8px 12px;
-    margin: 5px;
-    border-radius: 4px;
+  background: linear-gradient(90deg, #FF00A8, #A23BEC);
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 4px;
 }
 
 .bars {
-    /* display: flex; */
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    /* min-height: 80px; */
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif sans;
-    /* justify-content: center; */
-    flex-direction: row;
-}
-.bar {
-    color: white;
-    padding: 15px;
-    border-radius: 5px;
-    /* text-align: center; */
-    margin: 10px 0;
-    /* width: 10rem; */
-    min-height: 80px;
-    display: flex;
-    /* border: #1B5E20 solid 5px; */
-    flex-wrap: wrap;
-    /* flex-direction: row; */
-}
-.shrink {
-    display: flex;
-  align-items: center;   /* vertically centers text + image */
-  justify-content: space-between;
-  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
   margin: 20px 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.shrink{
-    flex: 1;
-  font-size: 1.2rem;
-  text-align: left;
-}
-
-.shrink h3 {
-flex: 1;
-  font-size: 1.2rem;
-  text-align: left;
-}
-
-.shrink li {
+.bar {
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  background-color: #1B5E20;
+}
+
+.shrink {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shrink h3,
+.shrink li {
   font-size: 1.2rem;
-  text-align: left;  
+  text-align: left;
 }
 
 .flex-grow {
-        /* padding: 12px; */
-        width: 5%;
-        padding-left: 0px;
-        flex-grow: 2;
-    }
+  flex-grow: 2;
+  padding-right: 4rem;
+}
 
 .flex-shrink {
-    flex-shrink: 1;
-    width: 10%;
+  flex-shrink: 1;
+  max-width: 45%;
 }
 
 .image2 {
-    width: 10rem;
-    height: 10rem;
-    margin-left: 5rem;
-    /* border: #1B5E20 solid 5px; */
+  width: 20rem;
+  height: 10rem;
+  margin-top: 1rem;
 }
 
 .image2 img {
-     width: 200px;   /* or whatever fits your design */
+  width: 100%;
   height: 100%;
   border-radius: 15px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 ul {
-  list-style: none;   /* removes default browser bullets */
-  padding-left: 0;    /* removes weird indentation */
-  margin: 10px 0;     /* adds clean spacing */
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0;
 }
 
 ul li {
-  margin-bottom: 8px; /* space between items */
+  margin-bottom: 8px;
   font-size: 1.1rem;
   line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+}
+
+.main img {
+    width: 20rem;
+  height: 10rem;
 }
 
 /* exercise 3 */
