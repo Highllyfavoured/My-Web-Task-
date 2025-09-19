@@ -1,5 +1,4 @@
 # PROJECT TITLE & DESCRIPTION
-## CSS EXERCISE ONE
 ### Websites designed for different purposes including Holy Grail, Dashboard, Magazines etc
 
 ### Attached below is the screenshots of the design of the website.
