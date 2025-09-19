@@ -1,9 +1,12 @@
 # PROJECT TITLE & DESCRIPTION
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## CSS CODEBOOK EXERCISES
 =======
 ## CSS EXERCISE ONE
 >>>>>>> 7f43d4165dfa7ee3aacc8e5182519f39480e4c10
+=======
+>>>>>>> 334b13e33387e47f234ee69b550c9557b5906c6d
 ### Websites designed for different purposes including Holy Grail, Dashboard, Magazines etc
 
 ### Attached below is the screenshots of the design of the website.
@@ -18,6 +21,10 @@
 # CODEBOOK 1 TASK THREE PROJECT SCREENSHOTS
 
 ![CSS Exercise Three](https://github.com/user-attachments/assets/17b807c2-bd00-4119-9bf5-167f8969cacd)
+
+# CODEBOOK 1 TASK FOUR PROJECT SCREENSHORTS
+
+![CSS Exercise Four](https://github.com/user-attachments/assets/2aa75aee-977d-4b1b-a5a7-3d47fe44651c)
 
 # CODEBOOK 2 TASK ONE PROJECT SCREENSHOTS
 
