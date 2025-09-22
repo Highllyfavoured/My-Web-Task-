@@ -13,7 +13,7 @@
 }
 
 .sticky-demo-container {
-    height: 600px;
+    height: 900px;
     overflow-y: scroll;
     padding: 10px;
     margin: 20px 0;
@@ -133,6 +133,8 @@
     background: linear-gradient(135deg, #4C7A1F, #73A738, #A4D65E);
     text-align: center;
     color: white;
+    position: sticky;
+    bottom: 0;
 }
 .us button{
       background: linear-gradient(90deg, #2E7D32, #66BB6A);
@@ -191,7 +193,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color: #1B5E20;
+  /* background-color: #893f7e; */
 }
 
 .shrink {
