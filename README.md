@@ -1,10 +1,8 @@
 # PROJECT TITLE & DESCRIPTION
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 ## CSS CODEBOOK EXERCISES
-=======
+
 ## CSS EXERCISE ONE
->>>>>>> 7f43d4165dfa7ee3aacc8e5182519f39480e4c10
 =======
 >>>>>>> 334b13e33387e47f234ee69b550c9557b5906c6d
 ### Websites designed for different purposes including Holy Grail, Dashboard, Magazines etc
@@ -57,8 +55,5 @@
 
 ![Whole Section](https://github.com/user-attachments/assets/9a321b7e-777f-4ab7-ad49-66a7fe81885d)
 
-<<<<<<< HEAD
 # CODEBOOK THREE TASK THREE PROJECT SCREENSHOTS
-=======
-# CODEBOOK THREE TASK THREE PROJECT SCREENSHOTS
->>>>>>> 7f43d4165dfa7ee3aacc8e5182519f39480e4c10
+
