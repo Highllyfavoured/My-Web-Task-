@@ -16,39 +16,39 @@ function getGrade() {
             }
                 }
 
-        function calculatePrice() {
-            let price = prompt("Enter the price of goods");
-            let customerType = prompt("Are you a student, senior or employee");
-            let isFirstPurchase = confirm("Is this your first purchase?");
-            let discount = 0;
+        // function calculatePrice() {
+        //     let price = prompt("Enter the price of goods");
+        //     let customerType = prompt("Are you a student, senior or employee");
+        //     let isFirstPurchase = confirm("Is this your first purchase?");
+        //     let discount = 0;
 
-            if (customerType === "student") {
-                discount = 0.10;
-            } else if (customerType === "senior") {
-                discount = 0.15;
-            }else if (customerType === "employee") {
-                discount = 0.20;
-            }
+        //     if (customerType === "student") {
+        //         discount = 0.10;
+        //     } else if (customerType === "senior") {
+        //         discount = 0.15;
+        //     }else if (customerType === "employee") {
+        //         discount = 0.20;
+        //     }
 
-            if (isFirstPurchase) {
-                discount = 0.05;
-            }
+        //     if (isFirstPurchase) {
+        //         discount = 0.05;
+        //     }
 
-            let finalPrice = price * (1 - discount);
-            return {
-                originalPrice: price,
-                discountpercent: discount * 100,
-                finalPrice: finalPrice.toFixed(2)
-            };
+        //     let finalPrice = price * (1 - discount);
+        //     return {
+        //         originalPrice: price,
+        //         discountpercent: discount * 100,
+        //         finalPrice: finalPrice.toFixed(2)
+        //     };
 
-            let result = calculatePrice();
-            console.log("Price calculation:");
-            console.log(`Original: $${result.originalPrice}`);
-            console.log(`Discount: ${result.discountPercent}%`);
-            console.log(`Final price: $${finalPrice}`);
+        //     let result = calculatePrice();
+        //     console.log("Price calculation:");
+        //     console.log(`Original: $${result.originalPrice}`);
+        //     console.log(`Discount: ${result.discountPercent}%`);
+        //     console.log(`Final price: $${finalPrice}`);
 
-            console.log(calculatePrice())
-                }
+        //     console.log(calculatePrice())
+        //         }
 
         function weatherAdvice() {
            let temperature = prompt("What is the temperature in your area");
@@ -114,10 +114,10 @@ function getGrade() {
                 } else {
                 console.log("Try to relax after work. ");
                 }
-                } else if (dayType === "weekend") {
+            } else if (dayType === "weekend") {
                     console.log("Enjoy your weekend! ");
                    console.log(weather === "sunny" ? "Perfect time for outdoor activities. " : "Maybe watch a movie indoors. ");
-                } else if (dayType === "holiday") {
+            } else if (dayType === "holiday") {
                     console.log( "Happy holiday! ");
                     console.log((weather === "rainy" || weather === "cloudy")
                     ? "Cozy up with a book or some tea. " 
@@ -127,5 +127,4 @@ function getGrade() {
                     console.log("Remember to maintain work-life balance.");
                 }
 
-                console.log(personalAssistant());
         }
