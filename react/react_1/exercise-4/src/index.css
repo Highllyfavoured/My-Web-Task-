@@ -2,8 +2,9 @@
   font-family: "Inter", sans-serif;
   margin: 15px;
   padding: 8px;
-  background: linear-gradient(80deg, green 30%, green 10%, white 20%, white 70%, green 70%, green 100%);
+  background: linear-gradient(green 20%, white 50%, green 80%);
   color: black;
+  border-radius: 12px;
 }
 
 header {

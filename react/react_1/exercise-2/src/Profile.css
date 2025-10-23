@@ -1,0 +1,23 @@
+.profile {
+    background-color:  #891b00;
+    border-radius: 20px;
+    border: solid 5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.profile img{
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+    border: solid 5px;
+    /* margin: 10px; */
+}
+
+.profile h2, h3, p {
+    background-color: black;
+    color: #dd9d64;
+    border-radius: 5px;
+    border: solid #dd9d64;
+}
+
