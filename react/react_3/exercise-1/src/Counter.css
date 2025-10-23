@@ -1,0 +1,30 @@
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.count {
+  background-color: rgb(9, 9, 78);
+  color: aliceblue;
+  border: solid 5px#2f86d3;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.count button {
+  padding: 12px;
+  margin: 5px;;
+  background-color: #2f86d3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.count button:hover {
+  background-color: #b71c1c;
+}

@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(122, 38, 38);
+  border-radius: 20px;
+  border: solid 5px;
+}
+
+.nameInput input {
+  border-radius: 5px;
+  padding: 12px 70px;
+  margin: 8px;
+  background-color: bisque;
+  border: none;
+  font-size: large;
+}
+
+.nameInput Button {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 3px;
+  background-color: rgb(122, 38, 38);
+  color: bisque;
+}
+
+.tag {
+  background-color: bisque;
+  padding: 4px;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 1280px;
+  margin: 12px auto;
+  text-align: center;
+}

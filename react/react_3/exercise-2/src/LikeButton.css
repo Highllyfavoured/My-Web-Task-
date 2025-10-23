@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.like {
+  background-color: aquamarine;
+  padding: 12px;
+  border: 12px, solid rgb(117, 233, 194);
+  border-radius: 10px;
+}
+
+.like button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(117, 233, 194);
+  margin: 8px;
+}
+
+/* .like button:hover {
+  background-color: aquamarine;
+} */
+
+.like.yes {
+  color:rgb(52, 226, 43);
+}
+
+.like.no {
+  color: blue;
+}
+
+.buttons {
+  display: flex;
+  flex-direction:column;
+}
