@@ -1,0 +1,24 @@
+.nigeria {
+  border: 2px solid darkred;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(233, 227, 227);
+  transition: transform 0.3s;
+}
+
+.nigeria.north {
+    background-color: #8B4513;
+}
+
+.nigeria.south {
+    background-color: #008751;
+}
+
+.nigeria.east {
+    background-color: #FFD700;
+}
+
+.nigeria.west {
+    background-color: #4169E1;
+}
