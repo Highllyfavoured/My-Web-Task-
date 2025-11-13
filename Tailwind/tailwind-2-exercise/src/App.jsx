@@ -1,11 +1,10 @@
-import './App.css';
+
 import { Routes, Route } from 'react-router-dom'
 import Home from './Components/Home';
 import Exercise1 from './Components/Exercise1';
 import Exercise2 from './Components/Exercise2';
 import Exercise3 from './Components/Exercise3';
 import Exercise4 from './Components/Exercise4';
-
 
 function App() {
 
